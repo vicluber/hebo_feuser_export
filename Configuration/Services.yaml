@@ -1,0 +1,13 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Hebotek\HeboFeuserExport\Command\ExportUsers:
+    tags:
+      - name: 'console.command'
+        command: 'export:users'
+        description: 'This command will export every user on the fe_users table.'
+        # not required, defaults to false
+        hidden: false

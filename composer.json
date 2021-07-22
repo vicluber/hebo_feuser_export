@@ -1,0 +1,22 @@
+{
+   "name": "hebotek/hebo-feuser-export",
+   "type": "typo3-cms-extension",
+   "description": "This TYPO3 extension for adding a command that exports all typo3 users",
+   "license": [
+      "GPL-2.0+"
+   ],
+   "authors": [
+      {
+         "name": "Victor Willhuber",
+         "role": "Developer"
+      }
+   ],
+   "autoload": {
+      "psr-4": {
+         "Hebotek\\HeboFeuserExport\\": "Classes/"
+      }
+   },
+   "require": {
+      "typo3/cms-core": "^10.4"
+   }
+} 
